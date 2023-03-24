@@ -1,9 +1,9 @@
 
 <script>
 
-import Header from "./components/header.vue"
+import AppTitle from "./components/AppTitle.vue"
 
-import Jumbo from "./components/jumbo.vue"
+import AppHero from "./components/AppHero.vue"
 
 export default {
   data() {
@@ -11,8 +11,8 @@ export default {
     };
   },
   components: {
-    Header,
-    Jumbo,
+    AppTitle,
+    AppHero,
   },
   methods: {},
 };
@@ -21,8 +21,8 @@ export default {
 
 <template>
   <div class="main">
-    <Header></Header>
-    <Jumbo></Jumbo>
+    <AppTitle></AppTitle>
+    <AppHero></AppHero>
   </div>
 </template>
 
